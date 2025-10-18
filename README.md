@@ -1,8 +1,24 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+ You'll find in this project :
+
+1-Login authenticates; token stored/applied; session restored (biometric shown if token
+exists).
+2-App auto-locks after 10s and on background; lock overlay obscures content.
+3-Biometric unlock works; password fallback when biometrics unavailable.
+4-All Products renders list; pull-to-refresh; offline banner when disconnected.
+5-Specific Category renders filtered list.
+6-Superadmin can delete a product (UI updates; delete is simulated).
+7-React Query cache persists to MMKV and rehydrates on cold start (instant cached lists.
+wether online or offline).
+
+Admin user name : emilys
+Admin password : emilyspass
+
+category : you can filter by any category not only one single category
+Trade-offs : I would write unit tests and compelete the cycle including specfic product view, add to cart and checkout.
+
 
 ## Step 1: Start Metro
 
